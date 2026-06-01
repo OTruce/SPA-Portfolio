@@ -1,0 +1,81 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  font-family:Arial, sans-serif;
+  background:#aa3d3d;
+}
+
+.container{
+  max-width:900px;
+  margin:auto;
+  padding:20px;
+}
+
+header{
+  text-align:center;
+  margin-bottom:30px;
+}
+
+form{
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+  background:wheat;
+  padding:20px;
+  border-radius:10px;
+  margin-bottom:20px;
+}
+
+input,
+textarea{
+  padding:10px;
+  width:100%;
+  color: azure;
+}
+
+button{
+  padding:10px;
+  cursor:pointer;
+  background-color: #aa3d3d;
+  border-radius: 40px;
+}
+
+.project-card{
+  display:flex;
+  align-items:center;
+  gap:20px;
+  background:ivory;
+  margin:10px 0;
+  padding:15px;
+  border-radius:10px;
+}
+
+.delete-btn{
+  width:40px;
+  height:40px;
+}
+
+h3, h2{
+  color: black;
+} 
+
+/* h3{
+  color: black;
+} */
+
+/* p{
+  color: black;
+} */
+
+@media(max-width:768px){
+
+  .project-card{
+    flex-direction:column;
+    align-items:flex-start;
+  }
+
+}
