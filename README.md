@@ -74,7 +74,7 @@ App
 
 Installation and Setup
 
-1. Clone the Repository
+1. Fork and Clone the Repository
 git clone https://github.com/yourusername/SPA-Portfolio.git
 
 2. Navigate to the Project Folder
